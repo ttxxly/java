@@ -8,10 +8,10 @@ public class Finally {
 			System.out.println("我很帅!!!!");
 			final StringBuffer sb = new StringBuffer();
 			sb.append("hello");
-			//System.exit(0);
+			// System.exit(0);
 		} catch (Exception e) {
 			// TODO: handle exception
-		}finally {
+		} finally {
 			System.out.println("结束!!!!");
 		}
 	}
